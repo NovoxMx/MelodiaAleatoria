@@ -24,7 +24,7 @@ notas = escala_7 if cantidad == 7 else escala_12
 try:
     sonidos = {nota: pygame.mixer.Sound(f"Tonos/{nota}.wav") for nota in notas}
 except FileNotFoundError as e:
-    print("⚠️ Error: Asegúrate de tener los archivos .wav para todas las notas seleccionadas.")
+    print("Error: Asegúrate de tener los archivos .wav para todas las notas seleccionadas.")
     raise e
 
 n = len(notas)
