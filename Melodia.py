@@ -46,9 +46,9 @@ def reproducir_nota(nota):
     sonido = sonidos[nota]
     sonido.play()
     if notas == escala_7:
-        time.sleep(0.4) # Tiempo de espera para notas de 7 tonos
+        time.sleep(0.3) # Tiempo de espera para notas de 7 tonos
     else:
-        time.sleep(0.4) # Tiempo de espera para notas de 12 tonos
+        time.sleep(0.5) # Tiempo de espera para notas de 12 tonos
    
 
 # Generar Ritmo Aleatorio
